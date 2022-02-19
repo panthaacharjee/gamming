@@ -1,13 +1,32 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  margin : 0;
+  padding: 0;
+  box-sizing: border-box;
+  background : #101533;
+}
+.container{
+  width: 90%;
+  /* background-color: antiquewhite; */
+  display: flex;
+  margin: 0px auto;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700;900&display=swap');
+
+/* ======================= 
+      CSS Imports
+======================= */
+
+@import url("./Components/Header/Header.css");
+@import url("./Components/Navbar/Navbar.css");
+@import url("./Components/Body/Body.css");
+@import url("./Components/Body/SideContent/WidthdrawHistory/WithdrawHistory.css");
+@import url("./Components/Body/SideContent/JunkeywardsAndRecords/JunkeywardsAndRecords.css");
+@import url("./Components/Body/SideContent/Ad/Ad.css");
